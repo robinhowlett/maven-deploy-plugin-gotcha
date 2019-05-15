@@ -19,14 +19,6 @@
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
 
-    <pluginRepositories>
-        <pluginRepository>
-            <id>temp.repo</id>
-            <name>Temp Repo</name>
-            <url>file://${user.home}/.m2/temp-repository</url>
-        </pluginRepository>
-    </pluginRepositories>
-
     <distributionManagement>
         <repository>
             <id>dev</id>
